@@ -1,4 +1,7 @@
-const returnEmptyString = function () {};
+const returnEmptyString = function () {
+    return " "
+};
+console.log(returnEmptyString)
 
 const returnZeroNumber = function () {};
 

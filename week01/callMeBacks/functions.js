@@ -1,9 +1,10 @@
-const identity = function () {
-
+const identity = function (n) {
+    return n
 };
+console.log(identity(9))
 
 const first = function () {
-  
+
 };
   
 const last = function () {
@@ -19,7 +20,8 @@ const indexOf = function () {
 };
 
 const map = function () {
-
+  const nummbers = [2, 8, 19, 3, 5]
+  
 }
 
 const filter = (collection, callback)=>{
